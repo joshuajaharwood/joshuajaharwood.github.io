@@ -1,0 +1,26 @@
+/* https://coolors.co/dcdcdd-c5c3c6-46494c-4c5c68-1985a1 DFDFE0*/
+
+body {
+	background-color: #898B8D
+}
+
+.jumbotron {
+	background-color: #D4D3D5;
+}
+
+.navbar {
+	margin-top: 15px;
+}
+
+.navbar-dark {
+	color: blue;
+}
+
+.active {
+	color: #D1D1D1;
+	font-weight: bold;
+}
+
+#main {
+	padding-top: 20px;
+}
