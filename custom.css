@@ -1,5 +1,7 @@
+
 body {
-	background-color: #3AAFA9
+	background-color: #3AAFA9;
+	color: #17252A;
 }
 
 /* .navbar-default {
@@ -26,4 +28,8 @@ body {
 
 #main {
 	padding-top: 20px;
+}
+
+#welcome {
+	background-color: #DEF2F1;
 }
