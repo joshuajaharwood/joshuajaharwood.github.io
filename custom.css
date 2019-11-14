@@ -17,9 +17,9 @@ body {
 	margin-top: 15px;
 }
 
-.navbar-dark {
+/* .navbar-dark {
 	color: blue;
-}
+} */
 
 .active {
 	color: #D1D1D1;
@@ -31,5 +31,5 @@ body {
 }
 
 #welcome {
-	background-color: #DEF2F1;
+	background-color: #99d6d3;
 }
