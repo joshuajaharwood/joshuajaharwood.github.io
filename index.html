@@ -24,34 +24,43 @@
 				<ul class="navbar-nav">
 					<!-- Home -->
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Home</a>
+						<a class="nav-link" href="#" title="Home">Home</a>
 					</li>
 
 					<!-- About Me -->
 					<li class="nav-item">
-						<a class="nav-link" href="#">About Me</a>
+						<a class="nav-link" href="about.html" title="About Me">About Me</a>
 					</li>
 
-					<!-- GitHub -->
-					<li class="nav-item">
-						<a class="nav-link" href="https://github.com/CFHeadphase">GitHub</a>
-					</li>
-
-					<!-- Dropdown -->
+					<!-- Work dropdown -->
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-							Projects
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" title="Work">
+							Work
 						</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="#">Dirty Diplomats</a>
-							<a class="dropdown-item" href="#">Link 2</a>
-							<a class="dropdown-item" href="#">Link 3</a>
+							<!-- My CV -->
+							<a class="dropdown-item" href="#" data-toggle="tooltip" title="Available on request.">My CV</a>
+							<!-- My GitHub-->
+							<a class="dropdown-item" href="https://github.com/joshuajaharwood" title="My GitHub">My GitHub</a>
 						</div>
 					</li>
 
-					<!-- Music -->
+					<!-- Projects dropdown -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" title="Projects">
+							Projects
+						</a>
+						<div class="dropdown-menu">
+							<!-- Dirty Diplomats -->
+							<a class="dropdown-item" href="https://github.com/Git-Daddy-HS19/DirtyDiplomats" title="Dirty Diplomats">Dirty Diplomats</a>
+							<!-- My Music-->
+							<a class="dropdown-item" href="https://soundcloud.com/jjaharwood" title="My Music">My Music</a>
+						</div>
+					</li>
+
+					<!-- Contact -->
 					<li class="nav-item">
-						<a class="nav-link" href="https://soundcloud.com/cfheadphase">My Music</a>
+						<a class="nav-link" href="contact.html" title="Contact">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -76,5 +85,11 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script>
+			$(document).ready(function(){
+				$('[data-toggle="tooltip"]').tooltip();   
+			});
+		</script>
+				
 	</body>
 </html>
