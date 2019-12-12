@@ -1,0 +1,93 @@
+<!--
+	Copyright (c) Joshua Harwood - 2019
+
+	Notes to self: maybe a purple theme..?
+	It is the coolest colour, after all.
+-->
+
+<!doctype html>
+<html lang="en">
+	<!-- Metadata -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="custom.css">
+		<title>Joshua J. A. Harwood - Contact</title>
+	</head>
+
+	<!-- Body -->
+	<body>
+		<div class="container">
+			<!-- Navigation -->
+			<nav class="navbar navbar-expand-sm bg-dark navbar-dark rounded">
+				<ul class="navbar-nav">
+					<!-- Home -->
+					<li class="nav-item">
+						<a class="nav-link" href="index.html" title="Home">Home</a>
+					</li>
+
+					<!-- About Me -->
+					<li class="nav-item">
+						<a class="nav-link" href="about.html" title="About Me">About Me</a>
+					</li>
+
+					<!-- Work dropdown -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" title="Work">
+							Work
+						</a>
+						<div class="dropdown-menu">
+							<!-- My CV -->
+							<a class="dropdown-item" href="#" data-toggle="tooltip" title="Available on request.">My CV</a>
+							<!-- My GitHub-->
+							<a class="dropdown-item" href="https://github.com/joshuajaharwood" title="My GitHub">My GitHub</a>
+						</div>
+					</li>
+
+					<!-- Projects dropdown -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" title="Projects">
+							Projects
+						</a>
+						<div class="dropdown-menu">
+							<!-- Dirty Diplomats -->
+							<a class="dropdown-item" href="https://github.com/Git-Daddy-HS19/DirtyDiplomats" title="Dirty Diplomats">Dirty Diplomats</a>
+							<!-- My Music-->
+							<a class="dropdown-item" href="https://soundcloud.com/jjaharwood" title="My Music">My Music</a>
+						</div>
+					</li>
+
+					<!-- Contact -->
+					<li class="nav-item active">
+						<a class="nav-link" href="#" title="Contact">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		
+		<!-- Main body -->
+		<div id="main" class="container">
+			<!-- Text container. 'welcome' needs turning in to a class at some point. -->
+			<div id="welcome" class="container rounded-lg p-5">
+				<h1>Contact</h1>
+				<p>You can use the following methods to get in contact with me.</p>
+				<h4>Via Email</h4>
+				<p><a href="mailto:joshuaharwood@pm.me">joshuaharwood@pm.me</a></p>
+				<h4>Via LinkedIn</h4>
+				<p><a href="https://www.linkedin.com/in/joshuajaharwood/">My LinkedIn profile</a></p>
+			</div>
+		</div>
+		
+		<!-- Bootstrap includes -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script>
+			$(document).ready(function(){
+				$('[data-toggle="tooltip"]').tooltip();   
+			});
+		</script>
+				
+	</body>
+</html>
