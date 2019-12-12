@@ -1,2 +1,2 @@
-# CFHeadphase.github.io
+# joshuajaharwood.github.io
 Personal site
