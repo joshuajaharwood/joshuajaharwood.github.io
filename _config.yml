@@ -89,7 +89,7 @@ paginate_path:         /blog/:num/
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/bg_sharp.jpg
+accent_image:          /assets/img/wood_bg.jpg
 accent_color:          rgb(165,144,144) 
 
 # This is used for the `theme-color` meta tag,
@@ -322,6 +322,7 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - node_modules
 include:
   - .well-known
   - LICENSE.md
