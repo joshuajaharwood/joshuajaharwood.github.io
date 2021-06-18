@@ -50,8 +50,8 @@ $border-radius: {{ vars.border_radius | default:0.5 }}rem;
 
 $break-point-font-large: {{ vars.break_point_font_large | default:124 }}em;
 
-$content-margin-3: 3rem;
-$content-margin-5: 4rem;
+$content-margin-3: 3rem; //3
+$content-margin-5: 4rem; //4
 
 // TODO: doc
 $half-content: ($content-width-5 / 2) + $content-margin-5;
