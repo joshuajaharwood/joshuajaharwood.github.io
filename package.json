@@ -9,7 +9,7 @@
     "build": "npm run build:js & npm run build:css & npm run build:scripts & wait",
     "build:js": "webpack --mode production --color",
     "build:js:stats": "webpack --mode production --progress --color --json > stats.json",
-    "build:css": "build-css.js",
+    "build:css": ".scripts/build-css.js",
     "build:scripts": " for f in $(find _includes/scripts -type f ! -name '*.min.js'); do g=${f%.js}; uglifyjs $f -c -m > $g.min.js; done",
     "watch": "npm run watch:js & npm run watch:css",
     "watch:js": "webpack --watch --mode development --progress --color",

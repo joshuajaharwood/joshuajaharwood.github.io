@@ -25,7 +25,7 @@ title:                 Joshua J. A. Harwood
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  A blog detailing my technical personal projects.
+  A blog detailing some of my technical personal projects.
 
 # A shorter description for the sidebar.
 tagline:               Computer Science & AI student at the University of Sussex
@@ -36,7 +36,7 @@ keywords:              [student, developer, java, python, ethereum]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/profile.jpg
+logo:                  /assets/img/profile_cropped.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -54,6 +54,8 @@ menu:
     url:               /projects/
   - title:             Résumé*
     url:               /resume/
+  - title:             Documentation
+    url:               /docs/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -430,6 +432,3 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
-
-# Extras
-clap_button: false
